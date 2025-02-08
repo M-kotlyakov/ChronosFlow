@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "ChronosFlow"
 include(":app")
- 
+include(":app:feature_main_list")
+include(":core-database")
+include(":core-network")

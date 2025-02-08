@@ -11,6 +11,7 @@ activity = "1.10.0"
 constraintlayout = "2.2.0"
 kotea = "1.2.6"
 tirecycler = "2.2.1"
+jetbrainsKotlinJvm = "1.9.0"
 
 
 [libraries]
@@ -29,4 +30,6 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 
